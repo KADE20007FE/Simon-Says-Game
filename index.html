@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Simon Says</title>
+        <audio id="sound1">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" >
+         </audio>
+
+         <audio id="sound2">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" >
+        </audio>
+
+        <audio id="sound3">
+        <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" >
+        </audio>
+    <audio  id="sound4">
+    <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3">
+    </audio>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+
+</head>
+<body>
+
+    <div class="outer-circle">
+        <div class="topleft"></div>
+        <div class="topright"></div>
+        <div class="bottomleft"></div>
+        <div class="bottomright"></div>
+        <div class="inner-circle">
+            
+            <div class="title">SIMON SAYS!</div>
+            <div class="controls">
+               <div class="switch">
+                 <input type="checkbox" class="toggle" id="on">
+                     <span>Power</span>
+               </div>
+                    
+
+                <button class="start">START!</button>
+
+                 <div class="switch">
+                     <input type="checkbox" class="toggle" id="strict">
+                   <span>Strict</span>
+                
+                 </div>
+
+               
+               
+               
+            </div>
+            <div class="score-display">
+                <div id="turn"></div>
+               <span class="score">COUNT</span>
+            </div>
+
+        
+
+    </div>
+
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
